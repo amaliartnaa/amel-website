@@ -53,7 +53,7 @@ const Home = () => {
             {/* Navbar */}
             <nav className="w-full h-20 bg-purple flex items-center justify-between shadow-2xl fixed top-0 left-0 z-10">
                 <div className="ml-16">
-                    <div className="text-white text-5xl m-4 font-normal font-kanit">kunaitech.</div>
+                    <div className="text-white text-5xl m-4 font-normal font-kanit">RA</div>
                 </div>
                 <div className="mr-16">
                     <ul className="flex space-x-8">
