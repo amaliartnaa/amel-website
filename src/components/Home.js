@@ -47,8 +47,8 @@ const Home = () => {
     });
 
     return (
-        <div className="home-container">
-            <div className="w-full h-[700px] relative bg-cyan-100 overflow-x-hidden overflow-y-hidden">
+        <div id="home" className="home-container">
+            <div className="w-[393px] md:w-full h-[852px] md:h-[700px] relative bg-cyan-100 overflow-x-hidden overflow-y-hidden">
             
             {/* Navbar */}
             <nav className="w-full h-20 bg-purple flex items-center justify-between shadow-2xl fixed top-0 left-0 z-10">
@@ -58,16 +58,16 @@ const Home = () => {
                 <div className="mr-16">
                     <ul className="flex space-x-8">
                         <li>
-                            <a href="#" className="text-white text-xl font-bold font-sans">Home</a>
+                            <a href="#home" className="text-white text-xl font-normal font-sans">Home</a>
                         </li>
                         <li>
-                            <a href="#" className="text-white text-xl font-bold font-sans">About</a>
+                            <a href="#about" className="text-white text-xl font-normal font-sans">About</a>
                         </li>
                         <li>
-                            <a href="#" className="text-white text-xl font-bold font-sans">Projects</a>
+                            <a href="#projects" className="text-white text-xl font-normal font-sans">Projects</a>
                         </li>
                         <li>
-                            <a href="#" className="text-white text-xl font-bold font-sans">Contact</a>
+                            <a href="#contact" className="text-white text-xl font-normal font-sans">Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -75,10 +75,10 @@ const Home = () => {
 
             {/* Intro */}
             <div className="left-32 top-52 relative mt-4 mb-8">
-                <div className="left-0 top-0 relative text-black text-[70px] font-bold font-sans">
+                <div className="left-0 top-0 relative text-black text-[40px] md:text-[70px] font-bold font-sans">
                     Hi<animated.span style={waveHandProps}>👋</animated.span>, I’m Amel
                 </div>
-                <div className="left-0 top-6 relative text-violet-800 text-3xl font-bold font-sans">
+                <div className="left-0 top-6 relative text-violet-800 text-xl md:text-3xl font-bold font-sans">
                     <Typed
                         strings={[ 
                             "I'm an Information Systems student",
@@ -94,7 +94,7 @@ const Home = () => {
 
             {/* Photo */}
             <div className="w-[468px] h-[150px] rounded-[700px] relative mx-auto mr-20 bottom-6">
-                <img className="w-[468px] h-[460px] rounded-[700px]" src="images/fotoku.png" alt="Amel's Photo"/>
+                <img className="w-[281px] md:w-[468px] h-[294px] md:h-[460px] left-[308px] top-[28px] rounded-[700px]" src="images/fotoku.png" alt="Amel's Photo"/>
 
                 <animated.img style={rocketProps} className="w-[200px] h-18 absolute left-80 -top-1" src="images/rocket.png" alt="Rocket"/>
                 <animated.img style={saturnProps} className="w-[175px] h-18 absolute top-72 -left-10" src="images/saturn.png" alt="Saturn"/>

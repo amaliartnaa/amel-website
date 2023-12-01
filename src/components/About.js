@@ -10,9 +10,9 @@ const About = () => {
     ];
 
     return (
-        <div className="about-container w-full min-h-screen flex items-center bg-cyan-100">
+        <div id="about" className="about-container w-full min-h-screen flex items-center bg-cyan-100">
             <div className="mx-auto text-center">
-                <div className="text-black text-5xl font-bold font-sans mb-10">
+                <div className="text-black text-5xl font-bold font-sans mb-10 mt-20">
                 Glad to see you here!
                 </div>
 
