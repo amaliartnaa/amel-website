@@ -50,30 +50,6 @@ const Home = () => {
         <div id="home" className="home-container">
             <div className="min-w-full sm:w-full md:w-full h-[852px] md:h-[700px] relative bg-cyan-100 overflow-x-hidden overflow-y-hidden">
             
-            {/* Navbar */}
-            {/* <nav className=" min-w-full md:w-full h-20 bg-purple flex items-center justify-between shadow-2xl fixed top-0 left-0 z-10">
-                <div className="ml-16">
-                    <div className="text-white text-4xl md:text-5xl m-4 font-normal font-kanit">RA</div>
-                </div>
-                <div className="mr-16">
-                    <ul className="flex space-x-8">
-                        <li>
-                            <a href="#home" className="text-white 
-                            text-xl font-normal font-sans">Home</a>
-                        </li>
-                        <li>
-                            <a href="#about" className="text-white text-xl font-normal font-sans">About</a>
-                        </li>
-                        <li>
-                            <a href="#projects" className="text-white text-xl font-normal font-sans">Projects</a>
-                        </li>
-                        <li>
-                            <a href="#contact" className="text-white text-xl font-normal font-sans">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav> */}
-
             {/* Intro */}
             <div className="flex justify-center items-center min-h-screen flex-col text-center">
                     <div className="relative text-black text-[40px] md:text-[70px] font-bold font-sans mb-4">
@@ -91,14 +67,6 @@ const Home = () => {
                             loop
                         />
                     </div>
-
-                {/* Photo */}
-                {/* <div className="w-[468px] h-[150px] rounded-[700px] relative mx-auto mr-20 bottom-6">
-                    {/* <img className="w-[281px] md:w-[468px] h-[294px] md:h-[460px] left-[308px] top-[28px] sm:justify-center items-center rounded-[700px]" src="images/fotoku.png" alt="Amel's Photo"/>
-
-                    {/* <animated.img style={rocketProps} className="w-[200px] h-18 absolute left-80 -top-1" src="images/rocket.png" alt="Rocket"/>
-                    <animated.img style={saturnProps} className="w-[175px] h-18 absolute top-72 -left-10" src="images/saturn.png" alt="Saturn"/> 
-                </div> */}
 
                 {/* Sosmed */}
                 <div className="flex justify-center mb-10 gap-6">
