@@ -1,10 +1,7 @@
 /* eslint-disable jsx-a11y/img-redundant-alt */
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
-// import React, { useState, useEffect } from "react";
 import Typed from "react-typed";
-// import Typewriter from "typewriter-effect";
-// import { useSpring, animated } from "react-spring";
 
 const Home = () => {
     const socialMediaIcons = [
@@ -12,39 +9,6 @@ const Home = () => {
         { src: "images/instagram-logo.svg", alt: "Instagram", link: "https://instagram.com/amaliartnaa"},
         { src: "images/linkedin-logo.svg", alt: "Linkedin", link: "https://linkedin.com/in/amaliartnaa"}
     ]
-    // const saturnProps = useSpring({
-    //     loop: true,
-    //     from: { transform: "translateY(0)"},
-    //     to: [
-    //         { transform: "translateY(-20px)" },
-    //         { transform: "translateY(-10px)" },
-    //         { transform: "translateY(-20px)" },
-    //     ]
-    // });
-
-    // const rocketProps = useSpring({
-    //     loop: true,
-    //     from: { transform: "translateY(0) rotate(-110deg)"},
-    //     to: [
-    //         { transform: "translateY(-10px) rotate(-110deg)" },
-    //         { transform: "translateY(-20px) rotate(-110deg)" },
-    //         { transform: "translateY(-10px) rotate(-110deg)" },
-    //     ]
-    // });
-
-    // const waveHandProps = useSpring({
-    //     reset: true,
-    //     reverse: true,
-    //     from: { transform: "rotate(0deg)"},
-    //     to: async (next) => {
-    //         while (true) {
-    //             await next({ transform: "rotate(14deg)" });
-    //             await next({ transform: "rotate(-8deg)" });
-    //             await next({ transform: "rotate(14deg)" });
-    //             await next({ transform: "rotate(-4deg)" });
-    //         }
-    //     }
-    // });
 
     return (
         <div id="home" className="home-container">
